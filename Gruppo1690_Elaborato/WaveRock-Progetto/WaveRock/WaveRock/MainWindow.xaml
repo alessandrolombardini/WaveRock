@@ -1,0 +1,44 @@
+﻿<Window x:Class="WaveRock.MainWindow"
+        x:Name="window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WaveRock"
+        mc:Ignorable="d"
+        Title="WaveRock" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="23*"/>
+            <RowDefinition Height="28*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="210*"/>
+            <RowDefinition Height="14*"/>
+            <RowDefinition Height="46*"/>
+            <RowDefinition Height="16*"/>
+            <RowDefinition Height="14*"/>
+            <RowDefinition Height="14*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="51*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="239*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="131*"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="217*"/>
+            <ColumnDefinition Width="40*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#FFF4F4F5" Margin="15,5,13.333,10.666" Stroke="Black" Grid.ColumnSpan="14" Grid.RowSpan="11"/>
+        <Button x:Name="btt_accedi" Content="Accedi" Margin="7.667,4.333,4.667,2.278" Click="Btt_accedi_Click" RenderTransformOrigin="0.862,0.25" Grid.Column="5" Grid.Row="6" Grid.RowSpan="3"/>
+        <Image Margin="3.333,0.333,1,1.667" Source="cutmypic.png" Stretch="Fill" Grid.Column="3" Grid.Row="3" Grid.ColumnSpan="6"/>
+    </Grid>
+</Window>

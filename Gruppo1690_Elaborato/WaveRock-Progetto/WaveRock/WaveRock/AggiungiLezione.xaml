@@ -1,0 +1,121 @@
+﻿<Page x:Class="WaveRock.AggiungiLezione"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WaveRock"
+      mc:Ignorable="d" 
+      d:DesignHeight="320" d:DesignWidth="540"
+      Title="AggiungiLezione">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="45*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="57*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="45*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="24*"/>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="31*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition/>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FFF4F4F5" Margin="5.667,0.667,2,3.667" Stroke="Black" Grid.ColumnSpan="31" Grid.Column="1" Grid.Row="1"/>
+        <Label Content="Aggiungi lezione" HorizontalContentAlignment="Center" Margin="4.667,2.667,0,1.667" FontSize="18" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="31"/>
+        <Label x:Name="label_edizione" Content="Edizione corso" Margin="1.667,3,6.333,0.667" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="4" Grid.RowSpan="2"/>
+        <Label x:Name="label_data" Content="Data" Margin="1.667,3,9,1.667" Grid.Row="11" Grid.Column="3" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Label x:Name="label_luogo" Content="Luogo" Margin="1.667,2.333,1.667,1" Grid.Row="6" Grid.Column="3" Grid.RowSpan="4"/>
+        <Button x:Name="btt_aggiungi" Content="Aggiungi" Margin="6,4.334,0.333,4.333" Click="Btt_aggiungi_Click" Grid.Row="43" Grid.Column="28" Grid.ColumnSpan="5" Grid.RowSpan="7" />
+        <DatePicker x:Name="date_data" Margin="4,1,5.667,1.667" Grid.Row="11" Grid.Column="9" Grid.ColumnSpan="18" Grid.RowSpan="12"/>
+        <ComboBox x:Name="combo_tipologia"  DisplayMemberPath="NomeEData" SelectedValuePath="IDEdizioneCorso" Margin="4,1,0.333,2.333" SelectionChanged="Combo_tipologia_SelectionChanged" Grid.Row="3" Grid.Column="9" Grid.ColumnSpan="22"/>
+        <ComboBox x:Name="combo_luogo" DisplayMemberPath="Nome" SelectedValuePath="IDLuogo" Margin="4,1.333,46,0.333" Grid.Row="5" Grid.Column="9" Grid.ColumnSpan="23" Grid.RowSpan="2"/>
+        <Label x:Name="label_durata" Content="Durata" Margin="1.667,0.333,3,2" Grid.Row="33" Grid.Column="3" Grid.RowSpan="11" Grid.ColumnSpan="2"/>
+        <ComboBox x:Name="combo_ore" Margin="4,0.605,3.333,8.333" Grid.Row="37" Grid.Column="9" Grid.ColumnSpan="2" Grid.RowSpan="8"/>
+        <Label Content="Ore" Margin="0.667,3.314,3,3.019" RenderTransformOrigin="-1.227,1.385" Grid.Row="38" Grid.Column="11" Grid.ColumnSpan="7" Grid.RowSpan="8"/>
+        <Label Content="Minuti" Margin="1,3.314,5.333,5.019" RenderTransformOrigin="0,0.385" Grid.Row="38" Grid.Column="24" Grid.ColumnSpan="5" Grid.RowSpan="8"/>
+        <ComboBox x:Name="combo_minuti" Margin="3,0.605,2,8.333" RenderTransformOrigin="0.437,0.227" Grid.Row="37" Grid.Column="18" Grid.ColumnSpan="5" Grid.RowSpan="8"/>
+        <Label x:Name="label_durata_Copy" Content="Ora" Margin="1.667,1.333,5,0.333" Grid.Row="20" Grid.Column="3" Grid.RowSpan="12" Grid.ColumnSpan="2"/>
+        <ComboBox x:Name="combo_oraSingola" Margin="4,0,0.333,1" Grid.Row="25" Grid.Column="9" Grid.ColumnSpan="2" Grid.RowSpan="10"/>
+        <Label Content=":" Margin="4.333,1,0.667,0" RenderTransformOrigin="0,0.385" Grid.Row="25" Grid.Column="12" Grid.ColumnSpan="4" Grid.RowSpan="10"/>
+        <ComboBox x:Name="combo_minutoSingola" Margin="1.333,0,1.667,1" Grid.Row="25" Grid.Column="16" Grid.ColumnSpan="3" Grid.RowSpan="10"/>
+
+    </Grid>
+</Page>

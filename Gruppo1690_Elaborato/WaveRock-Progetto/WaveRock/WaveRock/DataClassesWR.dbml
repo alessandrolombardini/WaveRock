@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WaveRockDatabase" Class="DataClassesWRDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\WaveRockDatabase.mdf;Integrated Security=True" SettingsObjectName="WaveRock.Properties.Settings" SettingsPropertyName="WaveRockDatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ABBONAMENTO" Member="ABBONAMENTO">
+    <Type Name="ABBONAMENTO">
+      <Column Name="IDTipoAbbonamento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDPersona" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DataOraPagamento" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DataInizio" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="PERSONA_ABBONAMENTO" Member="PERSONA" ThisKey="IDPersona" OtherKey="IDPersona" Type="PERSONA" IsForeignKey="true" />
+      <Association Name="TIPO_ABBONAMENTO_ABBONAMENTO" Member="TIPO_ABBONAMENTO" ThisKey="IDTipoAbbonamento" OtherKey="IDTipoAbbonamento" Type="TIPO_ABBONAMENTO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ACCESSO" Member="ACCESSO">
+    <Type Name="ACCESSO">
+      <Column Name="IDPersona" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DataOra" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="PERSONA_ACCESSO" Member="PERSONA" ThisKey="IDPersona" OtherKey="IDPersona" Type="PERSONA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ACQUISTO" Member="ACQUISTO">
+    <Type Name="ACQUISTO">
+      <Column Name="IDAcquisto" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DataOraAcquisto" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="IDPersona" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ACQUISTO_BIGLIETTO" Member="BIGLIETTO" ThisKey="IDAcquisto" OtherKey="IDAcquisto" Type="BIGLIETTO" />
+      <Association Name="ACQUISTO_TESSERA" Member="TESSERA" ThisKey="IDAcquisto" OtherKey="IDAcquisto" Type="TESSERA" />
+      <Association Name="PERSONA_ACQUISTO" Member="PERSONA" ThisKey="IDPersona" OtherKey="IDPersona" Type="PERSONA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BIGLIETTO" Member="BIGLIETTO">
+    <Type Name="BIGLIETTO">
+      <Column Name="IDBiglietto" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DataUso" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="IDAcquisto" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDTipoBiglietto" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ACQUISTO_BIGLIETTO" Member="ACQUISTO" ThisKey="IDAcquisto" OtherKey="IDAcquisto" Type="ACQUISTO" IsForeignKey="true" />
+      <Association Name="TIPO_BIGLIETTO_BIGLIETTO" Member="TIPO_BIGLIETTO" ThisKey="IDTipoBiglietto" OtherKey="IDTipoBiglietto" Type="TIPO_BIGLIETTO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CORSO" Member="CORSO">
+    <Type Name="CORSO">
+      <Column Name="Prezzo" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(2014) NOT NULL" CanBeNull="false" />
+      <Column Name="IDCorso" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Descrizione" Type="System.String" DbType="VarChar(2048) NOT NULL" CanBeNull="false" />
+      <Association Name="CORSO_EDIZIONE_CORSO" Member="EDIZIONE_CORSO" ThisKey="IDCorso" OtherKey="IDCorso" Type="EDIZIONE_CORSO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EDIZIONE_CORSO" Member="EDIZIONE_CORSO">
+    <Type Name="EDIZIONE_CORSO">
+      <Column Name="IDEdizioneCorso" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DataInizio" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="IDCorso" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumeroIscritti" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumeroPartecipanti" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDPersona" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="EDIZIONE_CORSO_ISCRIZIONE" Member="ISCRIZIONE" ThisKey="IDEdizioneCorso" OtherKey="IDEdizioneCorso" Type="ISCRIZIONE" />
+      <Association Name="EDIZIONE_CORSO_LEZIONE" Member="LEZIONE" ThisKey="IDEdizioneCorso" OtherKey="IDEdizioneCorso" Type="LEZIONE" />
+      <Association Name="CORSO_EDIZIONE_CORSO" Member="CORSO" ThisKey="IDCorso" OtherKey="IDCorso" Type="CORSO" IsForeignKey="true" />
+      <Association Name="PERSONA_EDIZIONE_CORSO" Member="PERSONA" ThisKey="IDPersona" OtherKey="IDPersona" Type="PERSONA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FASCIA_ETA" Member="FASCIA_ETA">
+    <Type Name="FASCIA_ETA">
+      <Column Name="IDFasciaEta" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(1024) NOT NULL" CanBeNull="false" />
+      <Column Name="InizioEta" Type="System.Decimal" DbType="Decimal(3,0) NOT NULL" CanBeNull="false" />
+      <Column Name="FineEta" Type="System.Decimal" DbType="Decimal(3,0) NOT NULL" CanBeNull="false" />
+      <Association Name="FASCIA_ETA_ORARIO" Member="ORARIO" ThisKey="IDFasciaEta" OtherKey="IDFasciaEta" Type="ORARIO" />
+      <Association Name="FASCIA_ETA_TIPO_ABBONAMENTO" Member="TIPO_ABBONAMENTO" ThisKey="IDFasciaEta" OtherKey="IDFasciaEta" Type="TIPO_ABBONAMENTO" />
+      <Association Name="FASCIA_ETA_TIPO_BIGLIETTO" Member="TIPO_BIGLIETTO" ThisKey="IDFasciaEta" OtherKey="IDTipoBiglietto" Type="TIPO_BIGLIETTO" Cardinality="One" />
+      <Association Name="FASCIA_ETA_TIPO_TESSERA" Member="TIPO_TESSERA" ThisKey="IDFasciaEta" OtherKey="IDTipoTessera" Type="TIPO_TESSERA" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FASCIA_ORARIA" Member="FASCIA_ORARIA">
+    <Type Name="FASCIA_ORARIA">
+      <Column Name="IDFasciaOraria" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(2014) NOT NULL" CanBeNull="false" />
+      <Column Name="InizioOrario" Type="System.TimeSpan" DbType="Time NOT NULL" CanBeNull="false" />
+      <Column Name="FineOrario" Type="System.TimeSpan" DbType="Time NOT NULL" CanBeNull="false" />
+      <Association Name="FASCIA_ORARIA_ORARIO" Member="ORARIO" ThisKey="IDFasciaOraria" OtherKey="IDFasciaOraria" Type="ORARIO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ISCRIZIONE" Member="ISCRIZIONE">
+    <Type Name="ISCRIZIONE">
+      <Column Name="IDPersona" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IDEdizioneCorso" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DataPagamento" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="EDIZIONE_CORSO_ISCRIZIONE" Member="EDIZIONE_CORSO" ThisKey="IDEdizioneCorso" OtherKey="IDEdizioneCorso" Type="EDIZIONE_CORSO" IsForeignKey="true" />
+      <Association Name="PERSONA_ISCRIZIONE" Member="PERSONA" ThisKey="IDPersona" OtherKey="IDPersona" Type="PERSONA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LEZIONE" Member="LEZIONE">
+    <Type Name="LEZIONE">
+      <Column Name="IDEdizioneCorso" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DataOra" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Durata" Type="System.TimeSpan" DbType="Time NOT NULL" CanBeNull="false" />
+      <Column Name="IDLuogo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="EDIZIONE_CORSO_LEZIONE" Member="EDIZIONE_CORSO" ThisKey="IDEdizioneCorso" OtherKey="IDEdizioneCorso" Type="EDIZIONE_CORSO" IsForeignKey="true" />
+      <Association Name="LUOGO_LEZIONE" Member="LUOGO" ThisKey="IDLuogo" OtherKey="IDLuogo" Type="LUOGO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LUOGO" Member="LUOGO">
+    <Type Name="LUOGO">
+      <Column Name="Nome" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Outoor" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="NumeroPercorsi" Type="System.Decimal" DbType="Decimal(3,0)" CanBeNull="true" />
+      <Column Name="Via" Type="System.String" DbType="VarChar(2048)" CanBeNull="true" />
+      <Column Name="IDLuogo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Zona" Type="System.String" DbType="VarChar(1024) NOT NULL" CanBeNull="false" />
+      <Column Name="Descrizione" Type="System.String" DbType="VarChar(2048)" CanBeNull="true" />
+      <Association Name="LUOGO_LEZIONE" Member="LEZIONE" ThisKey="IDLuogo" OtherKey="IDLuogo" Type="LEZIONE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ORARIO" Member="ORARIO">
+    <Type Name="ORARIO">
+      <Column Name="IDFasciaEta" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IDFasciaOraria" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="FASCIA_ETA_ORARIO" Member="FASCIA_ETA" ThisKey="IDFasciaEta" OtherKey="IDFasciaEta" Type="FASCIA_ETA" IsForeignKey="true" />
+      <Association Name="FASCIA_ORARIA_ORARIO" Member="FASCIA_ORARIA" ThisKey="IDFasciaOraria" OtherKey="IDFasciaOraria" Type="FASCIA_ORARIA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PERSONA" Member="PERSONA">
+    <Type Name="PERSONA">
+      <Column Name="Istruttore" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="DataNascita" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Indirizzo" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Cognome" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Cellulare" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="IDPersona" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="PERSONA_ABBONAMENTO" Member="ABBONAMENTO" ThisKey="IDPersona" OtherKey="IDPersona" Type="ABBONAMENTO" />
+      <Association Name="PERSONA_ACCESSO" Member="ACCESSO" ThisKey="IDPersona" OtherKey="IDPersona" Type="ACCESSO" />
+      <Association Name="PERSONA_ACQUISTO" Member="ACQUISTO" ThisKey="IDPersona" OtherKey="IDPersona" Type="ACQUISTO" />
+      <Association Name="PERSONA_EDIZIONE_CORSO" Member="EDIZIONE_CORSO" ThisKey="IDPersona" OtherKey="IDPersona" Type="EDIZIONE_CORSO" />
+      <Association Name="PERSONA_ISCRIZIONE" Member="ISCRIZIONE" ThisKey="IDPersona" OtherKey="IDPersona" Type="ISCRIZIONE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TESSERA" Member="TESSERA">
+    <Type Name="TESSERA">
+      <Column Name="IDTessera" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDAcquisto" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumeroBiglietti" Type="System.Decimal" DbType="Decimal(3,0) NOT NULL" CanBeNull="false" />
+      <Column Name="IDTipoTessera" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="TESSERA_USO_TESSERA" Member="USO_TESSERA" ThisKey="IDTessera" OtherKey="IDTessera" Type="USO_TESSERA" />
+      <Association Name="ACQUISTO_TESSERA" Member="ACQUISTO" ThisKey="IDAcquisto" OtherKey="IDAcquisto" Type="ACQUISTO" IsForeignKey="true" />
+      <Association Name="TIPO_TESSERA_TESSERA" Member="TIPO_TESSERA" ThisKey="NumeroBiglietti,IDTipoTessera" OtherKey="NumeroBiglietti,IDTipoTessera" Type="TIPO_TESSERA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TIPO_ABBONAMENTO" Member="TIPO_ABBONAMENTO">
+    <Type Name="TIPO_ABBONAMENTO">
+      <Column Name="IDTipoAbbonamento" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Prezzo" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="MesiDurata" Type="System.Decimal" DbType="Decimal(3,0) NOT NULL" CanBeNull="false" />
+      <Column Name="IDFasciaEta" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="TIPO_ABBONAMENTO_ABBONAMENTO" Member="ABBONAMENTO" ThisKey="IDTipoAbbonamento" OtherKey="IDTipoAbbonamento" Type="ABBONAMENTO" />
+      <Association Name="FASCIA_ETA_TIPO_ABBONAMENTO" Member="FASCIA_ETA" ThisKey="IDFasciaEta" OtherKey="IDFasciaEta" Type="FASCIA_ETA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TIPO_BIGLIETTO" Member="TIPO_BIGLIETTO">
+    <Type Name="TIPO_BIGLIETTO">
+      <Column Name="IDTipoBiglietto" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Prezzo" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Association Name="TIPO_BIGLIETTO_BIGLIETTO" Member="BIGLIETTO" ThisKey="IDTipoBiglietto" OtherKey="IDTipoBiglietto" Type="BIGLIETTO" />
+      <Association Name="FASCIA_ETA_TIPO_BIGLIETTO" Member="FASCIA_ETA" ThisKey="IDTipoBiglietto" OtherKey="IDFasciaEta" Type="FASCIA_ETA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TIPO_TESSERA" Member="TIPO_TESSERA">
+    <Type Name="TIPO_TESSERA">
+      <Column Name="IDTipoTessera" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Prezzo" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="NumeroBiglietti" Type="System.Decimal" DbType="Decimal(3,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="TIPO_TESSERA_TESSERA" Member="TESSERA" ThisKey="NumeroBiglietti,IDTipoTessera" OtherKey="NumeroBiglietti,IDTipoTessera" Type="TESSERA" />
+      <Association Name="FASCIA_ETA_TIPO_TESSERA" Member="FASCIA_ETA" ThisKey="IDTipoTessera" OtherKey="IDFasciaEta" Type="FASCIA_ETA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USO_TESSERA" Member="USO_TESSERA">
+    <Type Name="USO_TESSERA">
+      <Column Name="IDTessera" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DataUso" Type="System.DateTime" DbType="Date NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="TESSERA_USO_TESSERA" Member="TESSERA" ThisKey="IDTessera" OtherKey="IDTessera" Type="TESSERA" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

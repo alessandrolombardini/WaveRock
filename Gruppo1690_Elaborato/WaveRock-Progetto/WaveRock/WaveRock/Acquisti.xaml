@@ -1,0 +1,100 @@
+﻿<Page x:Class="WaveRock.Acquisti"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WaveRock"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Acquisti">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="83*"/>
+            <ColumnDefinition Width="46*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="59*"/>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="24*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="35*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="14*"/>
+            <RowDefinition Height="16*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="23*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="19.667"/>
+            <RowDefinition Height="5.667"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="65*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FFF4F4F5" Margin="15,5,14,10" Stroke="Black" Grid.ColumnSpan="23" Grid.RowSpan="27"/>
+
+        <Rectangle Fill="#FFF4F4F5" Margin="8.667,5,6.667,5.333" Stroke="Black" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="21" Grid.RowSpan="3"/>
+        <Rectangle Fill="#FFF4F4F5" Margin="4.667,9,12,10.333" Stroke="Black" RenderTransformOrigin="0.058,0.65" Grid.Row="17" Grid.Column="1" Grid.ColumnSpan="13" Grid.RowSpan="9"/>
+        <Rectangle Fill="#FFF4F4F5" Margin="4.667,9.333,12,6" Stroke="Black" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="13" Grid.RowSpan="7"/>
+        <Rectangle Fill="#FFF4F4F5" Margin="4.667,5,5.333,0" Stroke="Black" Grid.Row="10" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+        <Rectangle Fill="#FFF4F4F5" Margin="4.667,8.667,5.333,0" Stroke="Black" Grid.Row="18" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="4"/>
+        <Label Content="Gestione acquisti" HorizontalContentAlignment="Center" Margin="10.333,5,10,5.333" RenderTransformOrigin="0.792,0.487" FontSize="22" Grid.Row="2" Grid.Column="7" Grid.ColumnSpan="7" Grid.RowSpan="3"/>
+        <Button x:Name="btt_back" Content="Torna indietro" Margin="0.667,2,11.333,2.333" Click="Btt_back_Click" Grid.Row="3" Grid.Column="2"/>
+        <ComboBox x:Name="combo_quantitaBiglietti" Margin="4.333,2.667,6.333,5" SelectionChanged="Combo_quantitaBiglietti_SelectionChanged" Grid.Row="11" Grid.Column="9" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Label Content="Quantità" Margin="19.333,5,30.667,0" RenderTransformOrigin="0.692,1.289" Grid.Row="10" Grid.Column="5" Grid.ColumnSpan="3" Grid.RowSpan="3"/>
+        <Rectangle Fill="#FFF4F4F5" Margin="9,9.333,0.667,13.333" Stroke="Black" Grid.Row="9" Grid.Column="14" Grid.ColumnSpan="8" Grid.RowSpan="17"/>
+        <Button x:Name="btt_acquista" Content="Aquista" Margin="11,10,9.667,3.666" RenderTransformOrigin="0.536,1.75" Click="Btt_acquista_Click" Grid.Row="22" Grid.Column="16" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Label Content="Tessere" Margin="4.667,8.667,9.333,0" RenderTransformOrigin="-0.211,0.962" FontWeight="Bold" Grid.Row="18" Grid.Column="2" Grid.RowSpan="4"/>
+        <Label Content="Biglietti" Margin="4.667,5,10.333,0" FontWeight="Bold" Grid.Row="10" Grid.Column="2" Grid.RowSpan="3"/>
+        <Label Content="Numero ingressi"  Margin="19.333,5.667,5.667,0" Grid.Row="18" Grid.Column="5" Grid.ColumnSpan="3" Grid.RowSpan="4"/>
+        <ComboBox x:Name="combo_tipoTessere" DisplayMemberPath="NumeroEPrezzo" SelectedValuePath="NumeroBiglietti" Margin="4.333,5.667,6.333,5.666" SelectionChanged="Combo_tipoTessere_SelectionChanged" Grid.Row="18" Grid.Column="9" Grid.ColumnSpan="2" Grid.RowSpan="3" />
+        <Label Content="Quantità" Margin="19.333,3.334,13.667,3.666" RenderTransformOrigin="0.385,0.577" Grid.Row="21" Grid.Column="5" Grid.ColumnSpan="3" Grid.RowSpan="4"/>
+        <ComboBox x:Name="combo_quantitaTessere" Margin="4.333,2.334,6.333,5.666" SelectionChanged="Combo_quantitaTessere_SelectionChanged" Grid.Row="21" Grid.Column="9" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+        <Label Content="Prezzo unitario" Margin="19.333,6.333,10.667,5" Grid.Row="12" Grid.Column="5" Grid.ColumnSpan="3" Grid.RowSpan="4"/>
+        <Label x:Name="label_prezzo" Margin="4.333,6.333,6.333,2.667" Grid.Row="12" Grid.Column="9" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+        <Rectangle Fill="#FFF4F4F5" Margin="5,0,5,5" Stroke="Black" Grid.Row="10" Grid.Column="15" Grid.ColumnSpan="6" Grid.RowSpan="3"/>
+        <Label Content="Carrello" HorizontalContentAlignment="Center" Margin="15,0,15,5" Grid.Row="10" Grid.Column="15" Grid.ColumnSpan="6" Grid.RowSpan="3"/>
+        <Label Content="Totale biglietti" Margin="6,8.667,9.333,1" Grid.Row="14" Grid.Column="15" Grid.ColumnSpan="3" Grid.RowSpan="3"/>
+        <Label Content="Totale" Margin="6,4.334,9.333,7.333" Grid.Row="19" Grid.Column="15" Grid.RowSpan="4" Grid.ColumnSpan="3"/>
+        <Label Content="Totale tessere" Margin="6,1,9.333,0.666" RenderTransformOrigin="0.5,1.538" Grid.Row="16" Grid.Column="15" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Label x:Name="label_totaleBiglietti" Content="0" HorizontalContentAlignment="Right" Margin="15.667,8.667,5,1" Grid.Row="14" Grid.Column="17" Grid.ColumnSpan="4" Grid.RowSpan="3"/>
+        <Label x:Name="label_totale" Content="0" HorizontalContentAlignment="Right" Margin="14.667,5.334,6,6.333" Grid.Row="19" Grid.Column="17" Grid.ColumnSpan="4" Grid.RowSpan="4"/>
+        <Label x:Name="label_totaleTessere" Content="0" HorizontalContentAlignment="Right" Margin="15.667,2,5,0.666" Grid.Row="16" Grid.Column="17" Grid.ColumnSpan="4" Grid.RowSpan="3"/>
+        <Label Content="Inserisci matricola" Margin="9.667,6,5.667,1.333" RenderTransformOrigin="-0.781,0.974" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="5"/>
+        <TextBox x:Name="txt_matricola" HorizontalContentAlignment="Right" Margin="9.333,4,11.333,3.333" TextWrapping="Wrap" Text="" TextChanged="Txt_matricola_TextChanged" Grid.Row="7" Grid.Column="5" Grid.ColumnSpan="5"/>
+        <Button x:Name="btt_cercaMatricola" Content="Cerca" Margin="25.667,5,9.667,6.333" Click="Btt_cercaMatricola_Click" RenderTransformOrigin="0.529,1.31" Grid.Row="7" Grid.Column="10" Grid.ColumnSpan="3"/>
+        <CheckBox x:Name="checkbox_trovata" Content="Matricola trovata" Margin="9,12,4,7.333" IsEnabled="False" Grid.Row="7" Grid.Column="14" Grid.ColumnSpan="6"/>
+    </Grid>
+</Page>

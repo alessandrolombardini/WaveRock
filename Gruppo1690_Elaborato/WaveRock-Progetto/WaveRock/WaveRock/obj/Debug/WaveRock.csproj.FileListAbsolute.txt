@@ -1,0 +1,214 @@
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\WaveRock.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\Acquisti.g.cs
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.g.cs
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.cache
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.lref
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\WaveRock_Content.g.cs
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\bin\Debug\WaveRock.mdf
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\bin\Debug\WaveRock_log.ldf
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\bin\Debug\WaveRock.exe.config
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\bin\Debug\WaveRock.exe
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\bin\Debug\WaveRock.pdb
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\Acquisti.baml
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.baml
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\WaveRock.g.resources
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\WaveRock.Properties.Resources.resources
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\WaveRock.exe
+C:\Users\User\Desktop\Nuova cartella\WaveRock\WaveRock\obj\Debug\WaveRock.pdb
+C:\Users\User\Desktop\WaveRock\WaveRock\bin\Debug\WaveRock.mdf
+C:\Users\User\Desktop\WaveRock\WaveRock\bin\Debug\WaveRock_log.ldf
+C:\Users\User\Desktop\WaveRock\WaveRock\bin\Debug\WaveRock.exe.config
+C:\Users\User\Desktop\WaveRock\WaveRock\bin\Debug\WaveRock.exe
+C:\Users\User\Desktop\WaveRock\WaveRock\bin\Debug\WaveRock.pdb
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\WaveRock.csprojAssemblyReference.cache
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\Acquisti.g.cs
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.g.cs
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\App.g.cs
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\WaveRock_Content.g.cs
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.cache
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.lref
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\Acquisti.baml
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.baml
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\WaveRock.g.resources
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\WaveRock.Properties.Resources.resources
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.GenerateResource.cache
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\WaveRock.exe
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\WaveRock.pdb
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\Accesso.g.cs
+C:\Users\User\Desktop\WaveRock\WaveRock\obj\Debug\Accesso.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\bin\Debug\WaveRockDatabase.mdf
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\bin\Debug\WaveRockDatabase_log.ldf
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\bin\Debug\WaveRock.exe.config
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\bin\Debug\WaveRock.exe
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\bin\Debug\WaveRock.pdb
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\Accesso.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\Acquisti.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\Aggiungi.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\AggiungiEdizioneCorso.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\AggiungiLezione.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\AggiungiPersona.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\IscrizioneCorso.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\Naviga.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\Statistiche.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock_Content.g.cs
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.cache
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.lref
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\Accesso.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\Acquisti.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\Aggiungi.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\AggiungiEdizioneCorso.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\AggiungiLezione.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\AggiungiPersona.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\IscrizioneCorso.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\Naviga.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\Statistiche.baml
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock.g.resources
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock.Properties.Resources.resources
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock.exe
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock.pdb
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\bin\Debug\WaveRock.exe.manifest
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\bin\Debug\WaveRock.application
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock.exe.manifest
+C:\Users\User\Desktop\Test\WaveRock\WaveRock\obj\Debug\WaveRock.application
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\bin\Debug\WaveRockDatabase.mdf
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\bin\Debug\WaveRockDatabase_log.ldf
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\bin\Debug\WaveRock.exe.config
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\bin\Debug\WaveRock.exe.manifest
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\bin\Debug\WaveRock.application
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\bin\Debug\WaveRock.exe
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\bin\Debug\WaveRock.pdb
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock.csprojAssemblyReference.cache
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\Accesso.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\Acquisti.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\Aggiungi.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\AggiungiEdizioneCorso.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\AggiungiLezione.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\AggiungiPersona.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\IscrizioneCorso.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\Naviga.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\Statistiche.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\App.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock_Content.g.cs
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.cache
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.lref
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\Accesso.baml
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\Acquisti.baml
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\Aggiungi.baml
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\AggiungiEdizioneCorso.baml
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\AggiungiLezione.baml
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\AggiungiPersona.baml
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\IscrizioneCorso.baml
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\Naviga.baml
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.baml
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\Statistiche.baml
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock.g.resources
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock.Properties.Resources.resources
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.GenerateResource.cache
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock.exe.manifest
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock.application
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock.exe
+C:\Users\User\Desktop\waverock\WaveRock\WaveRock\obj\Debug\WaveRock.pdb
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRockDatabase.mdf
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRockDatabase_log.ldf
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRock.exe.config
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRock.exe.manifest
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRock.application
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRock.exe
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRock.pdb
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Accesso.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Acquisti.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Aggiungi.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiEdizioneCorso.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiLezione.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiPersona.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\IscrizioneCorso.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Naviga.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Statistiche.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock_Content.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.cache
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.lref
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Accesso.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Acquisti.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Aggiungi.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiEdizioneCorso.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiLezione.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiPersona.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\IscrizioneCorso.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Naviga.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Statistiche.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.g.resources
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.Properties.Resources.resources
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.exe.manifest
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.application
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.exe
+C:\Users\User\Desktop\Gruppo1690_Elaborato.zip\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.pdb
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRockDatabase.mdf
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRockDatabase_log.ldf
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRock.exe.config
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRock.exe.manifest
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRock.application
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRock.exe
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\bin\Debug\WaveRock.pdb
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Accesso.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Acquisti.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Aggiungi.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiEdizioneCorso.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiLezione.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiPersona.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\IscrizioneCorso.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Naviga.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Statistiche.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock_Content.g.cs
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.cache
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock_MarkupCompile.lref
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Accesso.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Acquisti.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Aggiungi.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiEdizioneCorso.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiLezione.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\AggiungiPersona.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\IscrizioneCorso.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Naviga.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\SottoscrizioneAbbonamenti.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\Statistiche.baml
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.g.resources
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.Properties.Resources.resources
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.exe.manifest
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.application
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.exe
+C:\Users\User\Desktop\Gruppo1690_Elaborato\WaveRock-Progetto\WaveRock\WaveRock\obj\Debug\WaveRock.pdb
